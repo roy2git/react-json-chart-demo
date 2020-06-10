@@ -1,0 +1,23 @@
+.dashboard {
+  display: flex;
+  border: 1px solid groove;
+  background-color: aliceblue;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+  flex-wrap: wrap;
+  margin-bottom: 22px;
+  margin-bottom: 22px;
+}
+
+.dashboard .item {
+  flex-grow: 1;
+  border: 2px solid green;
+  max-width: 47%;
+  max-height: 60vh;
+  margin: 4px;
+  background-color: gainsboro;
+  border-radius: 5px;
+  overflow-y: auto;
+  scrollbar-width: thin;
+}
